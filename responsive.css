@@ -1,0 +1,69 @@
+/*--------------------------- responsive--------------------------*/
+
+@media only screen and (max-width: 1000px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .main{
+    height: 100%;
+  }
+  nav img {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+
+  .images {
+    width: 0%;
+    height: 59%;
+    position: absolute;
+    top: 90px;
+    right: 170px;
+  }
+
+  .infocontainer {
+    padding-top: 210px;
+  }
+
+  .hello {
+    font-size: 40px;
+  }
+
+  .name {
+    font-size: 35px;
+  }
+  .infocontainer .about {
+    width: 30%;
+  }
+  .about li {
+    font-size: 20px;
+  }
+
+  .profile_pic{
+    display: none;
+  }
+
+  #hamburger-nav {
+    display: flex;
+  }
+
+  .textabout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 5px;
+  }
+  .contactmain {
+    display: flex;
+    flex-direction: column;
+    height: 166vh;
+  }
+}
